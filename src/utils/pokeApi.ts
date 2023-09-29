@@ -1,4 +1,4 @@
-import { Pokemon } from '../types';
+import type { Pokemon } from '../types';
 
 export async function getPokemons(from: number, to: number) {
   const pokemons: Pokemon[] = [];
